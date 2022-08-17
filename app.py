@@ -15,20 +15,23 @@ from streamlit_option_menu import option_menu
 #diabetes_model = pickle.load(open('C:\Users\adity\OneDrive\Desktop\Hackathon Project\diabetes_model','rb'))
 
 #heart_disease_model = pickle.load(open('C:\Users\adity\OneDrive\Desktop\Hackathon Project\heart_disease_model','rb'))
-diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
-
-heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
-
-
 # sidebar for navigation
 with st.sidebar:
     
     selected = option_menu('Multiple Disease Prediction System',
                           
-                          ['Diabetes Prediction',
+                          ['Home Page'
+                            'Diabetes Prediction',
                            'Heart Disease Prediction'],
                           icons=['activity','heart'],
                           default_index=0)
+    
+#Home Page
+if (selected == 'Home Page'):
+    
+    # page title
+    st.title('Heart and Diabetes Disease Prediction using ML')  
+    st.image('teampic.jpg')
     
     
 # Diabetes Prediction Page
