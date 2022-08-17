@@ -15,6 +15,9 @@ from streamlit_option_menu import option_menu
 #diabetes_model = pickle.load(open('C:\Users\adity\OneDrive\Desktop\Hackathon Project\diabetes_model','rb'))
 
 #heart_disease_model = pickle.load(open('C:\Users\adity\OneDrive\Desktop\Hackathon Project\heart_disease_model','rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+
+heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 # sidebar for navigation
 with st.sidebar:
     
@@ -34,7 +37,7 @@ if (selected == 'Home Page'):
     
     #st.write("check out this github of project [link](https://github.com/aadiaditya/Advanced-Datascience-Hackathon-)"
     st.image('teampic.jpg')
-    st.write("check out this github of project [link](https://github.com/aadiaditya/Advanced-Datascience-Hackathon-)"
+    #st.write("check out this github of project [link](https://github.com/aadiaditya/Advanced-Datascience-Hackathon-)"
     
     
 # Diabetes Prediction Page
