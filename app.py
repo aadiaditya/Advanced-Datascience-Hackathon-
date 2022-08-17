@@ -31,8 +31,10 @@ if (selected == 'Home Page'):
     
     # page title
     st.title('Heart and Diabetes Disease Prediction using ML') 
-    st.write("check out this github of project [link](https://github.com/aadiaditya/Advanced-Datascience-Hackathon-)"
+    
+    #st.write("check out this github of project [link](https://github.com/aadiaditya/Advanced-Datascience-Hackathon-)"
     st.image('teampic.jpg')
+    st.write("check out this github of project [link](https://github.com/aadiaditya/Advanced-Datascience-Hackathon-)"
     
     
 # Diabetes Prediction Page
