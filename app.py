@@ -30,7 +30,8 @@ with st.sidebar:
 if (selected == 'Home Page'):
     
     # page title
-    st.title('Heart and Diabetes Disease Prediction using ML')  
+    st.title('Heart and Diabetes Disease Prediction using ML') 
+    st.write("check out this github of project [link](https://github.com/aadiaditya/Advanced-Datascience-Hackathon-)"
     st.image('teampic.jpg')
     
     
@@ -39,6 +40,7 @@ if (selected == 'Diabetes Prediction'):
     
     # page title
     st.title('Diabetes Prediction using ML')
+    st.write(' Diabetes is a health condition that affects how your body turns food into energy. Most of the food you eat is broken down into sugar (also called glucose) and released into your bloodstream. When your blood sugar goes up, it signals your pancreas to release insulin. Without ongoing, careful management, diabetes can lead to a buildup of sugars in the blood, which can increase the risk of dangerous complications, including stroke and heart disease. So that i decide to predict using Machine Learning in Python.')
     
     
     # getting the input data from the user
@@ -92,6 +94,7 @@ if (selected == 'Heart Disease Prediction'):
     
     # page title
     st.title('Heart Disease Prediction using ML')
+    st.write('Heart disease cases are rising at an alarming rate, and its critical and to be able to predict these diseases in advance. The project focuses on predicting which patients are more likely to have heart disease based on a variety of medical factors. To predict and identify patients with heart disease, we used different algorithms such as logistic regression. The proposed model accuracy was quite good, and it was able to predict signs of heart disease in a person. This heart disease predictive method improves patient treatment and makes diagnosing the disease easier along with allowing exploring large data at once.')
     
     col1, col2, col3 = st.columns(3)
     
