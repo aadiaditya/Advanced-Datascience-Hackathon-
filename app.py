@@ -23,7 +23,7 @@ with st.sidebar:
                           ['Home Page'
                             'Diabetes Prediction',
                            'Heart Disease Prediction'],
-                          icons=['activity','heart'],
+                          icons=['activity','activity','heart'],
                           default_index=0)
     
 #Home Page
