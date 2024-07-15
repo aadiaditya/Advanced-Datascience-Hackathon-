@@ -8,8 +8,6 @@ This project aims to provide a machine learning-based system for predicting diab
 - [Installation](#installation)
 - [Usage](#usage)
 - [Models](#models)
-- [License](#license)
-- [Contributors](#contributors)
 
 ## Project Overview
 This application uses machine learning models to predict the likelihood of diabetes and heart disease based on user-provided health metrics. The system is built using Python and Streamlit for the front end, making it accessible and user-friendly.
