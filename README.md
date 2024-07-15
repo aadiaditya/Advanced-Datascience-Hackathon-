@@ -45,6 +45,8 @@ To run this project locally, follow these steps:
 Run the Streamlit application:
 ```bash
 streamlit run app.py
+```
+
 Navigate to the web application:
 Open your web browser and go to [http://localhost:8501](http://localhost:8501)
 
